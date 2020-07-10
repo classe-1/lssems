@@ -4,7 +4,7 @@
 <head>
     <?php include_once 'views/includes/head.php' ?>
     <title><?= ucfirst($page); ?> - Bricole</title>
-
+    <link rel="stylesheet" href="assets/styles/css/styles.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-4.0.0-beta.2.min.css">
 </head>
 <body class="bg-info">
@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.php?page=home">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php?page=home">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.php?page=categories">Categories</a>
